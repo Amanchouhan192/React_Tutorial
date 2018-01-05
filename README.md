@@ -10,9 +10,10 @@ in the tutorial you learn the besics of [**react**](https://reactjs.org/) and Ho
  ```npm install -g create-react-app```
 
 * ``-g`` we can use our react app globally that is why we are using -g .
-* After installation the react then for creating the react app type on the cmd.
+* After installation the ```react``` then for creating the [react app](https://reactjs.org/tutorial/tutorial.html) type on the cmd.
 ```create-react-app my-app```
 * here **my-app** is the name of the application
+* make shure you should already installed [npm or nodejs](https://github.com/Amanchouhan192/Node_Tutorial)
  
                                 
      
