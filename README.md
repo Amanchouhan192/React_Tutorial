@@ -58,4 +58,33 @@ ReactDOM.render(<TodoList/>, document.getElementById('root'));
 ```
 * for running the server open ``cmd`` and type **npm start**
 <a href="http://www.4GP.ME/bbtc/1515226563252.jpg"><img src="http://www.4GP.ME/bbtc/1515226563252.jpg" border="0" alt="Resim hosting: UploadEdit.com"></a>
-     
+# Some **Important** Terms in the [```reactjs```](https://reactjs.org)  
+1.[State and Props](https://reactjs.org/docs/faq-state.html#what-is-the-difference-between-state-and-props)
+ ```js 
+ import './index.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+
+class TodoList extends React.Component {
+    constructor(){
+       
+         super();
+         this.state = {
+            firstname: 'Hello React!!'
+
+         }
+         
+    }
+    render(){ 
+
+        return (
+           <ul>
+             {this.state.firstname}
+          </ul>
+        )
+    }
+
+}
+ReactDOM.render(<TodoList/>, document.getElementById('root'));
+```
