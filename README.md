@@ -15,5 +15,47 @@ in the tutorial you learn the besics of [**react**](https://reactjs.org/) and Ho
 * here **my-app** is the name of the application
 * make shure you should already installed [npm or nodejs](https://github.com/Amanchouhan192/Node_Tutorial)
  
-                                
+ 
+# ```Running``` and creating the server for the app
+> By writting the code with ``extension`` *.js*
+
+```js
+import './index.css';
+import App from './App';
+import registerServiceWorker from './registerServiceWorker';
+
+ReactDOM.render(<App />, document.getElementById('root'));
+registerServiceWorker();
+*/
+//import App from './App';
+import './index.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+
+class TodoList extends React.Component {
+    constructor(){
+       
+         super();
+         this.state = {
+            firstname: 'Hello React!!'
+
+         }
+         
+    }
+    render(){ 
+
+        return (
+           <ul>
+              {this.state.firstname}
+          </ul>
+        )
+    }
+
+}
+ReactDOM.render(<TodoList/>, document.getElementById('root'));
+
+```
+* for running the server open ``cmd`` and type **npm start**
+<a href="http://www.4GP.ME/bbtc/1515226563252.jpg"><img src="http://www.4GP.ME/bbtc/1515226563252.jpg" border="0" alt="Resim hosting: UploadEdit.com"></a>
      
