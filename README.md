@@ -88,7 +88,7 @@ class TodoList extends React.Component {
 }
 ReactDOM.render(<TodoList/>, document.getElementById('root'));
 ```
-> props
+> :+1:props
 ```js
 class ShoppingList extends React.Component {
   render() {
